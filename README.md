@@ -29,7 +29,7 @@ ethereum_package:
 
 ```
 
-Please note, by default your network will be running a `minimal` preset Ethereum network. Click [here](https://github.com/ethereum/consensus-specs/blob/dev/configs/minimal.yaml) to learn more about minimal preset. You can [customize](https://github.com/ethpandaops/ethereum-package) the L1 Ethereum network by modifying the `ethereum_package` configuration.
+Please note, by default your network will be running a `minimal` preset Ethereum network. Click [here](https://github.com/ethereum/consensus-specs/blob/dev/configs/minimal.yaml) to learn more about minimal preset. You can [customize](https://github.com/seolaoh/ethereum-package) the L1 Ethereum network by modifying the `ethereum_package` configuration.
 
 You can also completely remove `ethereum_package` from your configuration in which case it will default to a `minimal` preset Ethereum network.
 
@@ -651,7 +651,7 @@ Compile [tx-fuzz](https://github.com/MariusVanDerWijden/tx-fuzz) locally per ins
 
 Install the latest [contender](https://github.com/flashbots/contender) version via cargo:
 ```bash
-cargo install --git https://github.com/flashbots/contender --bin contender --force 
+cargo install --git https://github.com/flashbots/contender --bin contender --force
 ```
 
 Browse the available [scenarios](https://github.com/flashbots/contender/tree/main/scenarios) and pick one that fits your needs. For example, to download the `stress` scenario:

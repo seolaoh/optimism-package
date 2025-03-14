@@ -78,7 +78,7 @@ jobs:
           kurtosis analytics disable
 
       - name: Deploy L1
-        run: kurtosis run --enclave test --args-file ./.github/tests/external-l1/ethereum.yaml github.com/ethpandaops/ethereum-package
+        run: kurtosis run --enclave test --args-file ./.github/tests/external-l1/ethereum.yaml github.com/seolaoh/ethereum-package
 
       - name: Run Starlark
         run: |
